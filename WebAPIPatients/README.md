@@ -28,7 +28,7 @@ Context/         --> DbContext de Entity Framework Core (acceso a la base de dat
 Program.cs       --> Configuración de servicios y middleware (arranque)
 
 ## Decisiones técnicas:
-Se implementó Entity Framework Core para abstraer el acceso a datos, manejar migraciones y facilitar pruebas en memoria con xUnit.
+Se implementó Entity Framework Core para el acceso a datos y manejar migraciones.
 Se implementó JSON Patch para actualizaciones parciales de recursos.
 Se configuró Swagger para probar y documentar los endpoints de forma interactiva.
 Se creó un procedimiento almacenado en SQL Server para demostrar interacción directa con la base de datos.
